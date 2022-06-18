@@ -19,18 +19,18 @@ Once the user hits "enter" to execute the search, the appropriate data will appe
 ![basedata](https://github.com/TRACIE-F/UFOs/blob/main/static/images/basedata.png)
 
 ## Summary ## 
-Expanding the search functionality creates ample opportunity to seeek out very specific infortmation, but unfortunately opened the door for some frustrating limitations for the search fucntionality.
+Expanding the search functionality creates ample opportunity to seek out very specific information, but unfortunately opened the door for some frustrating limitations for the search functionality.
 
 **Search Functionality Limitations**
 There are several steps I would consider taking to solve search frustrations.
 
-1. Expand the capacity to understand various imputs. For the city, state, and country searches, users should be able to get the results for
+1. Expand the capacity to understand various inputs. For the city, state, and country searches, users should be able to get the results for
   * Arizona by typing *AZ* in addition to *az*
   * United States by typing *US* in addition to *us*
   * Fresno by typing *Fresno* in addition to *fresno*
 ![search_az](https://github.com/TRACIE-F/UFOs/blob/main/static/images/Search_az.png)
 ![SearchAZ](https://github.com/TRACIE-F/UFOs/blob/main/static/images/SearchAZ.png)
 
-2. Adding a legend for the sighting shapes would be extremely useful. While individuals could utilize the search function to snag data from a spceific city, state, or date, guessing potential entries for the sighting shape would be difficult. A drop-down box might be appropriate for the limited data. 
+2. Adding a legend for the sighting shapes would be extremely useful. While individuals could utilize the search function to snag data from a specific city, state, or date, guessing potential entries for the sighting shape would be difficult. A drop-down box might be appropriate for the limited data. 
 
-3. A bonus action would be to explore what happens to the search when data from other contries are added and they lack entries for the *State* column. 
+3. A bonus action would be to explore what happens to the search when data from other countries are added and they lack entries for the *State* column. 
