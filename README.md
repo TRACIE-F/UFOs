@@ -2,28 +2,35 @@
 
 ## Project Overview ##
 The client for this project is seeking to create an interactive table to filter through UFO sighting data, which is being stored in a JavaScript array.
+![fullsite](https://github.com/TRACIE-F/UFOs/blob/main/static/images/fullsite.png)
 
 ## Results ##
-Filter Search:
-Enter Date
-Enter City
-Enter State
-Enter Country
-Enter Shape
+Utilizing the interactive table is as simple as entering pertinent serach criteria in the section labeled "Filter Search." 
 
-![fullsite](https://github.com/TRACIE-F/UFOs/blob/main/static/images/fullsite.png)
-![filter_search] (https://github.com/TRACIE-F/UFOs/blob/main/static/images/filter_search.png)
+**Search Function**
+  * The users can filter through the UFO sighting date, city, state, country, or sighting shape.
+  * The data must match the format outlined in the sample text - for example, users would need to type in *az* instead of *AZ* or the table will not display any results.
+  * Users can enter only one search field or multiple fields to narrow down their search.The image below filters the date, state, and sighting shape.
+  * ![multi-search](https://github.com/TRACIE-F/UFOs/blob/main/static/images/multi-filter.png)
+  * Most importantly, hit "enter" to execute the search!
+
+**Table Results**
+Once the user hits "enter" to execute the search, the appropriate data will appear in a table to the right of the search bars, with the headers *Date, City, State, Country, Shape, Duration,* and *Comments*.
 ![basedata](https://github.com/TRACIE-F/UFOs/blob/main/static/images/basedata.png)
+
+## Summary ## 
+Expanding the search functionality creates ample opportunity to seeek out very specific infortmation, but unfortunately opened the door for some frustrating limitations for the search fucntionality.
+
+**Search Functionality Limitations**
+There are several steps I would consider taking to solve search frustrations.
+
+1. Expand the capacity to understand various imputs. For the city, state, and country searches, users should be able to get the results for
+  * Arizona by typing *AZ* in addition to *az*
+  * United States by typing *US* in addition to *us*
+  * Fresno by typing *Fresno* in addition to *fresno*
 ![search_az](https://github.com/TRACIE-F/UFOs/blob/main/static/images/Search_az.png)
 ![SearchAZ](https://github.com/TRACIE-F/UFOs/blob/main/static/images/SearchAZ.png)
 
-Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
+2. Adding a legend for the sighting shapes would be extremely useful. While individuals could utilize the search function to snag data from a spceific city, state, or date, guessing potential entries for the sighting shape would be difficult. A drop-down box might be appropriate for the limited data. 
 
-## Summary ## 
-In a summary statement, describe one drawback of this new design and two recommendations for further development.
-
-**Search Functionality Limitations**
-The new design opened the door for a great deal of opportunity. 
-
-1. limiting search with an inability to search CA instead of ca
-2. While individuals could utilize the search function to snag data from a spceific city, state, or date, there could easily be a legend for the shape and some kind of guide to share the date limits
+3. A bonus action would be to explore what happens to the search when data from other contries are added and they lack entries for the *State* column. 
