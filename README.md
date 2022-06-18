@@ -11,7 +11,11 @@ Enter State
 Enter Country
 Enter Shape
 
-![fullsite]()
+![fullsite](https://github.com/TRACIE-F/UFOs/blob/main/static/images/fullsite.png)
+![filter_search] (https://github.com/TRACIE-F/UFOs/blob/main/static/images/filter_search.png)
+![basedata](https://github.com/TRACIE-F/UFOs/blob/main/static/images/basedata.png)
+![search_az](https://github.com/TRACIE-F/UFOs/blob/main/static/images/Search_az.png)
+![SearchAZ](https://github.com/TRACIE-F/UFOs/blob/main/static/images/SearchAZ.png)
 
 Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
 
